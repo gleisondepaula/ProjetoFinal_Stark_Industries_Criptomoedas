@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Stark Industries - Criptomoedas</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Stark Industries - Criptomoedas</h1>
+        <p>Explore o mundo das criptomoedas com a Stark Industries. Descubra as últimas tendências e cotações.</p>
+        <div class="background-image"></div>
+        
+        
+    </header>
+    <main>
+        <section id="crypto-list" class="card-container">
+            <!-- Cards das criptomoedas serão adicionados dinamicamente via JavaScript -->
+        </section>
+        <section id="filter-section">
+            <h2>Filtrar Criptomoedas</h2>
+            <input type="text" id="filter-input" placeholder="Digite o nome da criptomoeda...">
+            <button id="filter-btn">Filtrar</button>
+        </section>
+        <section id="conversion-section">
+            <h2>Conversão de Moedas</h2>
+            <div>
+                <label for="currency">Selecione a moeda:</label>
+                <select id="currency">
+                    <!-- Opções de moedas serão adicionadas dinamicamente via JavaScript -->
+                </select>
+            </div>
+            <div>
+                <label for="amount">Quantidade:</label>
+                <input type="number" id="amount" placeholder="Insira a quantidade...">
+            </div>
+            <button id="convert-btn">Converter</button>
+            <p id="conversion-result"></p>
+        </section>
+        <footer>
+            <div class="container">
+                <div class="footer-content">
+                    <p>&copy; 2024 Stark Industries - Criptomoedas</p>
+                    <ul class="social-links">
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Twitter</a></li>
+                        <li><a href="#">Instagram</a></li>
+                    </ul>
+                </div>
+            </div>
+        </footer>
+            
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

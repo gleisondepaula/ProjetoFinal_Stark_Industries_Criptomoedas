@@ -1,0 +1,124 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+}
+header {
+    text-align: center; /* Centraliza o texto horizontalmente */
+}
+
+header h1 {
+    color: red;
+    margin: 0; /* Remove margens padrão para evitar espaçamento extra */
+}
+
+.background-image {
+    background-image: url('img/cripto.jpeg'); /* Substitua 'caminho/para/sua/imagem.jpg' pelo caminho da sua imagem */
+    background-size: cover;
+    background-position: center;
+    height: 200px; /* Ajuste a altura conforme necessário */
+}
+
+
+
+
+main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+section {
+    margin-bottom: 20px;
+}
+
+h2 {
+    color: red;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#conversion-result {
+    font-weight: bold;
+}
+/* Estilos CSS */
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.crypto-card {
+    width: calc(30% - 20px);
+    margin: 10px;
+    padding: 10px;
+    background-color: #222;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    color: white;
+}
+
+.crypto-card img {
+    max-width: 100%;
+    height: auto;
+}
+footer {
+    background-color: black;
+    color: white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.footer-content {
+    max-width: 800px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links {
+    list-style-type: none;
+    padding: 0;
+}
+
+.social-links li {
+    display: inline;
+    margin-right: 10px;
+}
+
+.social-links li:last-child {
+    margin-right: 0;
+}
+
+.social-links a {
+    color: white;
+    text-decoration: none;
+}
+/* Estilos para o rodapé */
+footer {
+    background-color: #333; /* Cor de fundo do rodapé */
+    color: #fff; /* Cor do texto do rodapé */
+    padding: 20px 0; /* Espaçamento interno do rodapé */
+    text-align: center; /* Centraliza o conteúdo do rodapé */
+    border-bottom: 2px solid #ddd; /* Adiciona uma linha suave na parte inferior */
+}
+
+
